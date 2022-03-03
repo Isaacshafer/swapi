@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/1-alderaan-bio-1_copy_d2ef86c5.jpeg?region=209%2C0%2C978%2C550&width=960);
+    background-repeat: no-repeat;
+    background-size: 100vh, 100vw;
+    background-color: black;
+    /* box-shadow: 0 0 10px 10px black inset; */
+}
+button {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    height: 10vh;
+    width: 40vw;
+    background: rgba(0, 0, 0, .1)
+}
+h2{
+    font-size: x-large;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+    height: 100;
+    width: 100vw;
+}
