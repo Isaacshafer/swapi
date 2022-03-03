@@ -1,0 +1,21 @@
+Part 1
+
+https://swapi.dev/api/people/4
+https://swapi.dev/api/planets/2
+https://swapi.dev/api/starships/10
+https://swapi.dev/api/people/2 https://swapi.dev/api/species/2/
+https://swapi.dev/api/people/10
+ttps://swapi.dev/api/starships/?search=falcon
+
+Part 2
+
+Post request requires a body. The contents of the body should be the text of the new post
+The get request returns an array of all posts
+https://practiceapi.devmountain.com/api/posts/555
+200 & 409
+https://practiceapi.devmountain.com/api/posts  {“text”: “Isaac”}
+https://practiceapi.devmountain.com/api/posts/551  {“text”: “Green”}
+https://practiceapi.devmountain.com/api/posts/filter?text=blue
+application/json; charset=utf-8
+Request was missing req.query.id or req.body.text
+It sends all the posts because that is what the get method does at the posts url
